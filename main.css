@@ -31,19 +31,17 @@ body {
     height: 250px;
     width: 1000px;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 650px;
+    grid-gap: 50%;
+    size: 100%;
     justify-content: center;
     z-index: 1;
     }
 
-    .logo-container {
-    grid-area: content;
-    }
+    
 .monika-container {
+    width: 50%;
     justify-content: center;
     align-items: center;
-   
-   
 }
     .text-container {
         display: flex;
