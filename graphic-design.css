@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 
     "nav      topbar  nav"
-    "topbar   logo    topbar"
+    "topbar   title   topbar"
     "subpage  subpage subpage"
     "content  content content" 
     "footer   footer  footer";
@@ -10,6 +10,11 @@
     grid-row: 30% 40% auto 20%;
     gap: 5%;
     }
+
+    a {
+        color:black;
+        text-decoration: none;
+        }
 
     .icon-container {
     grid-area: nav;
@@ -25,6 +30,13 @@
 }
 .icon
 {size: 100%;
+}
+
+.text-container {
+    display: flex;
+    grid-template-areas: "title";
+    position: center;
+
 }
 
 .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
