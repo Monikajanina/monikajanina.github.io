@@ -39,7 +39,12 @@ body {
     .logo-container {
     grid-area: content;
     }
-
+.monika-container {
+    justify-content: center;
+    align-items: center;
+   
+   
+}
     .text-container {
         display: flex;
         grid-gap: 100px;
