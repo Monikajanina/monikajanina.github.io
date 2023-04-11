@@ -77,7 +77,7 @@
     
     .image-gallery {
         height: 100%;
-        display: grid;
+        display: block;
         grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
         grid-template-rows: auto;
         grid-gap: 50px;
