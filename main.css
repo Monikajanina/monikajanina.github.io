@@ -63,8 +63,9 @@
         text-transform: uppercase;
         font-family: 'Spline Sans Mono', monospace;
         font-weight: 400;
+        font-size: 15px;
         padding:3%;
-        padding-bottom: 15%;
+        padding-bottom: 17%;
         }
         .hovereffect .text-container {
             text-transform: uppercase; 
