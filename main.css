@@ -129,14 +129,11 @@
 
 .box-wrapper{
   height:350px;
-  border-radius: 1%;
   
 }
 .box1 {
     grid-area: a;
     padding-top: 17%;
-    
-
 }
 
 .box2 {

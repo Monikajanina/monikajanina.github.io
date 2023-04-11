@@ -75,11 +75,14 @@
     .image-gallery {
         height: 100%;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
         grid-template-rows: auto;
-        grid-gap: 10px;
+        grid-gap: 50px;
         padding-top: 200px;
         padding-bottom: 200px;
+        align-items: center;
+        
+        
         grid-template-areas:
         ". a b ."
         ". c d ."
@@ -91,16 +94,23 @@
 
     .box-styling {
         height: 350px;
+        width:350px;
+        margin: 2% auto;
+        display: block;
+        row-gap: 8%;
         background-color: rgb(110, 110, 110);
         /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
       }
     
     .box-wrapper{
       height:350px;
+      width:1000px;
       border-radius: 1%;
     }
     .box1 {
         grid-area: a;
+        height: 100%;
+        width:100;
     
     }
     
@@ -119,8 +129,11 @@
     .box5 {
         grid-area: e;
     }
-    
+
+    .box6 {
+        grid-area: f;
     }
+    
     
     .bigText {
         font-size: 2em;
