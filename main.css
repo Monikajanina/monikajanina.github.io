@@ -89,8 +89,8 @@
     grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
     grid-template-rows: auto;
     grid-gap: 50%;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     grid-template-areas:
     ". a b c ."
     ". d e f ."
@@ -102,11 +102,13 @@
     height: 350px;
     width: 350px;
     display: block;
-    margin: 0 auto;
+    margin: 3% auto;
     row-gap: 10%;
     background-color: rgb(110, 110, 110);
     /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   }
+
+  
 
 .box-wrapper{
   height:350px;
