@@ -65,16 +65,15 @@
         font-weight: 400;
         font-size: 15px;
         padding:3%;
-        padding-bottom: 17%;
+
         }
-        .hovereffect .text-container {
-            text-transform: uppercase; 
+        .text-container:hover  {
+            text-transform: lowercase; 
             text-align: center;
             position: relative;
             font-size: 1em;
-            padding: 10px;
             font-family: 'Spline Sans Mono', monospace;
-            color:#3400f1;
+            color:#3700ff;
           }
     
 
@@ -135,6 +134,7 @@
 }
 .box1 {
     grid-area: a;
+    padding-top: 17%;
     
 
 }
