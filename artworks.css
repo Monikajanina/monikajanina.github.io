@@ -33,7 +33,7 @@
             text-decoration: none;
             }
     
-            .icon-container {
+            .icon-container  {
                 grid-area: nav;
                 display: flex;
                 height: 200px;
@@ -45,7 +45,9 @@
                 z-index: 1;
                 position: fixed;
                 margin-top: -8%;
-                color: beige;
+                stroke: beige;
+                stroke-width: 2px;
+                fill:beige;
                 }
     
     .text-container h1{
