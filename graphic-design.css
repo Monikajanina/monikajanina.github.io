@@ -36,6 +36,12 @@
     display: flex;
     grid-template-areas: "title";
     position: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 400;
+    margin-top: 10%;
 
 }
 
@@ -75,8 +81,6 @@
 }
 .box1 {
     grid-area: a;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-
 }
 
 .box2 {

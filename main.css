@@ -31,12 +31,13 @@
     .icon-container {
     grid-area: nav;
     display: flex;
+
+    justify-content: space-between;
     height: 250px;
     width: 1000px;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 50%;
+    grid-gap: 60%;
     size: 100%;
-    justify-content: center;
     z-index: 1;
     }
 
@@ -86,7 +87,7 @@
     display: grid;
     grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 50%;
     padding-top: 200px;
     padding-bottom: 200px;
     grid-template-areas:
@@ -109,10 +110,11 @@
 .box-wrapper{
   height:350px;
   border-radius: 1%;
+  
 }
 .box1 {
     grid-area: a;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    
 
 }
 
