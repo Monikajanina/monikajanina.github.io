@@ -83,8 +83,9 @@
         grid-gap: 50px;
         padding-top: 200px;
         padding-bottom: 200px;
-        align-items: center;
-        
+        /* align-items: center;
+        align-content: center; */
+        margin:auto;
         
         grid-template-areas:
         ". a b ."
