@@ -1,12 +1,15 @@
-body {
+.video-background {
     background-image: url(assets/hero.mp4);
     height: 5000px;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     position: fixed;
-    cursor: url('assets/NL-CC-closed.svg'), auto;	
+    cursor: url('assets/NL-CC-closed.svg'), auto;
     }
-
     a {
         color:black;
         text-decoration: none;
@@ -40,6 +43,8 @@ body {
     
 .monika-container {
     width: 50%;
+    display: block;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
