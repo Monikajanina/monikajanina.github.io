@@ -53,14 +53,16 @@
         grid-gap: 100px;
         justify-content: center;
         align-items: center;
-        font-family:monospace;
+        text-transform: uppercase;
+        font-family: 'Spline Sans Mono', monospace;
         font-weight: 400;
         }
 
-    .h1 {
-    font-family: 'Spline Sans Mono', monospace;
-    font-weight: 700;
-        }
+        .hovereffect .text-container {
+            text-transform: lowercase; 
+            color:#3400f1;
+          }
+
 
     .hero-container {
     position: fixed;
