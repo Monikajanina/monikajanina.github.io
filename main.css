@@ -40,6 +40,8 @@
     grid-gap: 60%;
     size: 100%;
     z-index: 1;
+    position: fixed;
+    padding-top: 1%;
     }
 
     
@@ -49,6 +51,7 @@
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    padding-top: 20%;
 }
     .text-container {
         display: flex;
@@ -59,6 +62,7 @@
         font-family: 'Spline Sans Mono', monospace;
         font-weight: 400;
         padding:3%;
+        padding-bottom: 15%;
         }
         .hovereffect .text-container {
             text-transform: uppercase; 
@@ -113,8 +117,8 @@
     height: 350px;
     width: 350px;
     display: block;
-    margin: 3% auto;
-    row-gap: 10%;
+    margin: 2% auto;
+    row-gap: 8%;
     background-color: rgb(110, 110, 110);
     /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   }
