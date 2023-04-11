@@ -33,9 +33,20 @@
             text-decoration: none;
             }
     
-        .icon-container {
-        grid-area: nav;
-        }
+            .icon-container {
+                grid-area: nav;
+                display: flex;
+             
+                height: 200px;
+                width: 1420px;
+                grid-template-rows: 1fr;
+                size: 100%;
+                z-index: 1;
+                position: fixed;
+                padding-top: 0%;
+                padding-right: 110%;
+                color: beige;
+                }
     
         .logo-container {
         grid-area: content;
@@ -60,6 +71,8 @@
         font-family: 'Spline Sans Mono', monospace;
         font-weight: 700;
         margin-top: 10%;
+        padding-top: 10%;
+        font-size: 50px;
     
     }
     
