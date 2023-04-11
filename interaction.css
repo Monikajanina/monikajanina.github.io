@@ -27,11 +27,11 @@
   }
   
   .hovereffect:hover img {
-    filter:blur(3px);
-    -webkit-filter: blur(10px);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    filter:blur(1px);
+    -webkit-filter: blur(2px);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
   
   .hovereffect h2 {
