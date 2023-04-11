@@ -31,10 +31,11 @@
     .icon-container {
     grid-area: nav;
     display: flex;
-
+    flex-grow: 1;
+    float: right;
     justify-content: space-between;
-    height: 250px;
-    width: 1000px;
+    height: 200px;
+    width: 1420px;
     grid-template-rows: 1fr 1fr;
     grid-gap: 60%;
     size: 100%;
