@@ -32,29 +32,55 @@
 
     .icon-container {
         /* 1420 */
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100vw;
+    height: 100vh;
     flex-grow: 1;
     float: right;
     justify-content: space-between;
-    height: 100px;
-    width: 430px;    
-    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "square topbar star"
+    ". logo .";
     grid-gap: 60%;
     size: 100%;
     z-index: 1;
-    position: fixed;
     padding-top: 1%;
+
     }
 
-    
-.monika-container {
+.star {
+    position: fixed;
+    width: 20%;
+    top:0;
+    right:0;
+    grid-area: star;
+}
+
+.square {
+    position: absolute;
+    width: 30vw;
+    top:0;
+    left:0;
+    grid-area: square;
+}
+
+.logo {
+    top:0;
+    left:0;
+    grid-area: logo;
+}
+
+/* .monika-container {
     width: 50%;
     display: block;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     padding-top: 20%;
-}
+} */
 .hovereffect .monika-container {
     
 }

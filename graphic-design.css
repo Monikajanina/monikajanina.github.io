@@ -62,8 +62,8 @@
     grid-gap: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     grid-template-areas:
     ". a b c ."
     ". d e f ."
@@ -74,6 +74,8 @@
 .box-styling {
     height: 350px;
     background-color: rgb(110, 110, 110);
+    margin: 2% auto;
+    row-gap: 8%;
     /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   }
 
