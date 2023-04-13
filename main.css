@@ -31,7 +31,7 @@
     } */
 
     .icon-container {
-    grid-area: nav;
+    
     display: flex;
     flex-grow: 1;
     float: right;
@@ -68,7 +68,7 @@ nav ul {
     font-weight: 700;
     color:#232323;
     gap: 10%;
-    font-size: 25px;
+    font-size: 15px;
     padding: 3%;
     list-style: none
     }
@@ -202,12 +202,19 @@ nav ul {
     padding-right: .5ch;
 }
 
-/* MEDIA QUERY FOR MOBILE */
-@media (max-width:735px){
+/* MEDIA QUERY FOR MOBILE - nooooooot working :') */
+@media (max-width:735px) {
+
     nav {
         padding-left: 0;
+        font-size: 10px;
     }
-
+    .icon-container {
+        justify-content: space-between;
+        height: 200px;
+        width: 710px;
+    }
+}
    .image-gallery {
        padding-bottom: 200%;
        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
