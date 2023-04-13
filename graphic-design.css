@@ -56,12 +56,14 @@
 
 .image-gallery {
     height: 100%;
-    display: grid;
+    display: block;
     grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     grid-template-areas:
     ". a b c ."
     ". d e f ."
@@ -130,8 +132,8 @@
    .image-gallery {
        padding-bottom: 200%;
        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
-       margin-left: 2%;
-       margin-right: 2%;
+       /* margin-left: 2%;
+       margin-right: 5%; */
 
        grid-template-areas:
        ".a."
