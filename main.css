@@ -55,7 +55,35 @@
     align-items: center;
     padding-top: 20%;
 }
-    .text-container {
+.monika-container :hover {
+    
+}
+nav ul {
+    display: flex;
+    /* grid-gap: 100px; */
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 700;
+    gap: 10%;
+    font-size: 25px;
+    padding: 3%;
+    list-style: none
+    }
+    nav ul li{
+        padding:10px;
+    }
+    nav ul li:hover  {
+        text-transform: lowercase; 
+        text-align: center;
+        position: relative;
+        font-size: 1em;
+        font-family: 'Spline Sans Mono', monospace;
+        color:#3700ff;
+      }
+
+    /* .text-container {
         display: flex;
         grid-gap: 100px;
         justify-content: center;
@@ -74,7 +102,7 @@
             font-size: 1em;
             font-family: 'Spline Sans Mono', monospace;
             color:#3700ff;
-          }
+          } */
     
 
         .hovereffect .text-container {
