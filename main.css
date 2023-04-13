@@ -55,7 +55,7 @@
     align-items: center;
     padding-top: 20%;
 }
-.monika-container :hover {
+.hovereffect .monika-container {
     
 }
 nav ul {
@@ -115,13 +115,10 @@ nav ul {
     position: fixed;
     z-index: -10;
 }
-.icon
-{size: 100%;
-}
+
 
 .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
 .st1{fill:none;stroke:#000000;stroke-width:1.1113;stroke-miterlimit:10;}
-
 .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
 
 
@@ -196,6 +193,7 @@ nav ul {
 
 .box9 {
     grid-area: i;
+    padding-bottom: 30%;
 }
 
 .bigText {
