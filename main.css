@@ -31,13 +31,13 @@
     } */
 
     .icon-container {
-    
+        /* 1420 */
     display: flex;
     flex-grow: 1;
     float: right;
     justify-content: space-between;
-    height: 200px;
-    width: 1420px;
+    height: 100px;
+    width: 430px;    
     grid-template-rows: 1fr 1fr;
     grid-gap: 60%;
     size: 100%;

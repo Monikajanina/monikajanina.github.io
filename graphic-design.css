@@ -130,6 +130,9 @@
    .image-gallery {
        padding-bottom: 200%;
        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+       margin-left: 2%;
+       margin-right: 2%;
+
        grid-template-areas:
        ".a."
        ".b."
