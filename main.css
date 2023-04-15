@@ -25,7 +25,8 @@
             right:0px;
             transform:scale(.4);
             transform-origin: top right;
-            padding: 20%;
+            padding: 8%;
+            z-index: +10;
 
         }
         .square-icon {
@@ -33,6 +34,10 @@
             left:0px;
             width:190px; 
             stroke: 10px;
+            transform:scale(.4);
+            transform-origin: top left;
+            padding: 8%;
+            z-index: +10;
         }
         .hero-container { 
             display: grid; 
@@ -54,6 +59,7 @@
                 justify-content: center;
                 align-items: center;
                 text-transform: uppercase;
+                text-align: center;
                 font-family: 'Spline Sans Mono', monospace;
                 font-weight: 700;
                 font-size: 15px;
