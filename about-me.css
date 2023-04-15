@@ -1,0 +1,12 @@
+
+
+.star-icon{
+    position: fixed;
+    top:0px;
+    right:0px;
+    transform:scale(.4);
+    transform-origin: top right;
+    padding: 8%;
+    z-index: +10;
+
+}
