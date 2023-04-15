@@ -15,18 +15,6 @@
     cursor: url('assets/NL-CC-closed.svg'), auto;
     }
 
-    main {
-        display: grid;
-        grid-template-areas: 
-        "nav      topbar  nav"
-        "topbar   title   topbar"
-        "subpage  subpage subpage"
-        "content  content content" 
-        "footer   footer  footer";
-        grid-template-columns: 1fr 3fr 3fr 1fr;
-        grid-row: 30% 40% auto 20%;
-        gap: 5%;
-        }
     
         a {
             color:black;
@@ -35,7 +23,6 @@
     
              /* rename dif class - get ekki notað s */
             .icon-container  {
-                grid-area: nav;
                 display: flex;
                 height: 200px;
                 justify-content: right;
