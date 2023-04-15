@@ -44,14 +44,26 @@
     color:#3400f1;
   }
   
+
   .hovereffect p {
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
-    padding: 7px 14px;
-    margin: 0;
+    padding: 100px;
+    margin: 0%;
     background-color: transparent;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    color: #f7f7fe;
+    text-transform: none;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 400;
+    margin-top:3%;
   }
-  
  
   
   .hovereffect h2 {
@@ -66,28 +78,20 @@
     text-transform: uppercase;
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 700;
-    margin-top:30%;
+    margin-top:10%;
   }
   
-  .hovereffect p {
-    -webkit-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    transform: scale(0.7);
-    -webkit-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    color: #f7f7fe;
-    text-transform: none;
-    font-family: 'Spline Sans Mono', monospace;
-    font-weight: 400;
-    margin-top:3%;
-  }
+
   .hovereffect:hover p, .hovereffect:hover h2 {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-
-  }
+  } 
+  #black-hover:hover {
+    color: black;
+  } 
+  #black-hover {
+    color: black;
+  } 
