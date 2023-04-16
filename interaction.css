@@ -39,14 +39,15 @@
     text-align: center;
     position: relative;
     font-size: 1em;
-    padding: 10px;
+    padding: 30px;
     font-family: 'Spline Sans Mono', monospace;
+    font-size: 20px;
     color:#3400f1;
   }
   
 
   .hovereffect p {
-    /* display: inline-block; */
+    display: inline-block;
     text-decoration: none;
     padding: 100px;
     margin: 0%;
@@ -62,7 +63,8 @@
     text-transform: none;
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 400;
-    margin-top:3%;
+    font-size: 15px;
+    margin-top:0%;
   }
  
   
