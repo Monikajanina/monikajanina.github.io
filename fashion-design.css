@@ -1,4 +1,18 @@
-
+.background-fashion {
+    background-image: url(assets/background-fashion.jpg);
+    height: 5000px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    opacity: 100%;
+    position: fixed;
+    cursor: url('assets/NL-CC-closed.svg'), auto;
+    }
 
 
 a {
@@ -6,7 +20,8 @@ a {
     text-decoration: none;
     }
 /* all for mobile styling */
-    .star-icon{
+  
+     .star-icon{
         position: fixed;
         top:0px;
         right:0px;
@@ -16,6 +31,10 @@ a {
         z-index: +10;
 
     }
+    #star {
+        fill:beige;
+        stroke-width: 2px;
+}
 
     .hero-container { 
         display: grid; 
@@ -59,6 +78,7 @@ a {
         font-family: 'Spline Sans Mono', monospace;
         font-weight: 400;
         padding: 20%;
+        color: rgb(255, 255, 255);
     
     }
 
@@ -152,12 +172,7 @@ a {
     width:205px;
     padding: 5%;
 }
-.square-icon {
-    top:0px;
-    left:0px;
-    width:190px; 
-    stroke: 10px;
-}
+
 .hero-container { 
     display: grid; 
     grid-template-columns: repeat(6, 1fr); 
@@ -170,36 +185,6 @@ a {
  
     .center-hero-items { grid-area: 3 / 2 / 6 / 6; } 
 
-  
-
-    nav ul {
-        display: flex;
-        /* grid-gap: 100px; */
-        justify-content: center;
-        align-items: center;
-        text-transform: uppercase;
-        font-family: 'Spline Sans Mono', monospace;
-        font-weight: 700;
-        font-size: 15px;
-        padding:3%;
-        list-style: none
-        }
-        nav ul li{
-            padding:10px;
-        }
-        nav ul li:hover  {
-            text-transform: lowercase; 
-            text-align: center;
-            position: relative;
-            font-size: 1em;
-            font-family: 'Spline Sans Mono', monospace;
-            color:#3700ff;
-          }
-
-nav {
-    padding-left: 0;
-    font-size: 10px;
-}
 .icon-container {
     justify-content: space-between;
     height: 200px;
