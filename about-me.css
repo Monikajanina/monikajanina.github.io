@@ -10,3 +10,16 @@
     z-index: +10;
 
 }
+
+.text-container {
+    display: flex;
+    grid-template-areas: "title";
+    position: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 400;
+    padding: 20%;
+
+}
