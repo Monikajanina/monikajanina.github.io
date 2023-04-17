@@ -68,6 +68,7 @@
     ". a b c ."
     ". d e f ."
     ". g h i ."
+    ". j k ."
     ;
 }
 
@@ -127,6 +128,15 @@
     padding-bottom: 30%;
 }
 
+.box10 {
+    grid-area: j;
+    padding-bottom: 30%;
+}
+.box11 {
+    grid-area: k;
+    padding-bottom: 30%;
+}
+
 .bigText {
     font-size: 2em;
     padding-right: .5ch;
@@ -179,5 +189,7 @@
        ".g."
        ".h."
        ".i."
+       ".j."
+       ".k."
        ;
    }
