@@ -71,6 +71,7 @@ a {
     .text-container {
         display: flex;
         grid-template-areas: "title";
+        white-space: nowrap;
         position: center;
         justify-content: center;
         align-items: center;
