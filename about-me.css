@@ -11,6 +11,20 @@
 
 }
 
+.mjk { 
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    height: 100vh;
+    }
+    
+
+ 
+    .center-hero-items { grid-area: 3 / 2 / 6 / 6; } 
+
+
 .text-container {
     display: flex;
     grid-template-areas: "title";
@@ -23,3 +37,6 @@
     padding: 20%;
 
 }
+
+style.cls-1{ 
+    fill:#0f0f0f;}
