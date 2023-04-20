@@ -176,7 +176,7 @@ footer {
     font-family: 'Spline Sans Mono', monospace;
                 font-weight: 700;
                 font-size: 10px;
-    width:70%;
+    width:80%;
     margin: 15 auto;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -187,6 +187,7 @@ footer {
     text-align: center;
     grid-gap: 30px;
     margin-left: 55px;
+    padding: 10px;
 }
 #email {
     grid-area: c;
