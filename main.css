@@ -172,6 +172,32 @@
     padding-right: .5ch;
 }
 
+footer {
+    font-family: 'Spline Sans Mono', monospace;
+                font-weight: 700;
+                font-size: 15px;
+    width:40%;
+    margin: 15 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a b c";
+    grid-gap: 5px;
+    margin-left: 20px;
+}
+#email {
+    grid-area: c;
+    width:100%;
+    bottom: 0;
+    right: 0;
+}
+
+#instagram {
+    grid-area: c;
+    transform-origin: bottom right;
+}
+
 /* MEDIA QUERY FOR MOBILE - nooooooot working :') */
 @media only screen and (max-width: 1200px) {
     a {
