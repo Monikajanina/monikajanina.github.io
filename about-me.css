@@ -37,10 +37,14 @@
     justify-content: center;
     /* border: 2px solid; */
 }
+.text-container .portrait img {
+    margin: 1% auto;
+}
 
 .resize {
-    width: 400px;
+    width:70%;
     height: auto;
+    margin: 0 auto;
     align-content: center;
 }
 
@@ -117,4 +121,7 @@ footer {
     grid-area: c;
     transform-origin: bottom right;
     width: 50%;
+}
+span {
+    font-weight: bold;
 }

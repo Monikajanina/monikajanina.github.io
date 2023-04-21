@@ -1,0 +1,32 @@
+.subpage-container { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(7, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    width: 100vw;
+    align-items: center;
+    overflow: hidden;
+    }
+    .heim-hero { 
+        grid-area: 1 / 1 / 2 / 3;
+      } 
+    .heim-header { grid-area: 2 / 1 / 3 / 3; } 
+    .photo-one { grid-area: 3 / 1 / 5 / 2; } 
+    .photo-two { grid-area: 3 / 2 / 5 / 3; } 
+    .description { grid-area: 5 / 1 / 6 / 3; } 
+    .photo-three { grid-area: 6 / 1 / 8 / 2; } 
+    .text { grid-area: 6 / 2 / 8 / 3; } 
+
+    img {
+        display: block;
+        margin-left: 10%;
+        margin-right: auto;
+        /* margin: 0 auto; important:  !important; */
+        width: 70vw;
+        /* text-align: center; */
+        align-items: center;
+
+
+    
+    } 
