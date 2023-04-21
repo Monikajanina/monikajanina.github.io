@@ -20,8 +20,8 @@
 
 #mjk {
     padding-top: 23%;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
 
 }
 
@@ -29,7 +29,7 @@
 
     display: block;
     margin: 1% auto;
-    padding-left: 15%;
+    padding-left: 5%;
 }
 
 .resize {
