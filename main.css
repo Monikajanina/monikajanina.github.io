@@ -51,7 +51,7 @@
          
             .center-hero-items { 
                 grid-area: 3 / 2 / 6 / 6; 
-                margin-left: -30px;
+                margin-left: -20px;
             } 
         
           
@@ -206,7 +206,7 @@ footer {
 /* MEDIA QUERY FOR MOBILE - nooooooot working :') */
 @media only screen and (max-width: 1200px) {
     a {
-        color:rgb(244, 7, 7);
+        /* color:rgb(244, 7, 7); */
         text-decoration: none;
         }
     .star-icon{
