@@ -84,14 +84,19 @@
             
         /* svg styling */
 
-        .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
+        /* .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
         .st1{fill:none;stroke:#000000;stroke-width:1.1113;stroke-miterlimit:10;}
-        .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
+        .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;} */
         #monika-logo:hover {
             fill:#3700ff;
             opacity: 30%;
         }
-       
+    .stroke-weight {
+        fill:none;
+        stroke:#000000;
+        stroke-width:1.1988;
+        stroke-miterlimit:10;}
+    }
 
 
 
