@@ -80,3 +80,35 @@ h3 {
 #bold {
     text-emphasis-style: bold;
 }
+
+footer {
+    font-family: 'Spline Sans Mono', monospace;
+                font-weight: 400;
+                font-size: 7px;
+                text-transform: uppercase; 
+    width:80%;
+    margin: 15 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a b c";
+    align-items: center;
+    text-align: center;
+    grid-gap: 30px;
+    margin-left: 38px;
+    padding: 10px;
+}
+#email {
+    grid-area: c;
+    width:100%;
+    bottom: 0;
+    right: 0;
+    stroke-width: 5px; 
+}
+
+#instagram {
+    grid-area: c;
+    transform-origin: bottom right;
+    width: 50%;
+}
