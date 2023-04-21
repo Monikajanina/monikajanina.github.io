@@ -27,7 +27,7 @@
 
 
 .text-container {
-    display: flex;
+    /* display: flex;
     grid-template-areas: "title";
     position: center;
     justify-content: center;
@@ -35,7 +35,7 @@
     text-transform: uppercase;
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 400;
-    padding: 20%;
+    padding: 20%; */
 
 }
 
@@ -43,8 +43,8 @@ h1 {
     text-align: center;
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 700;
-    font-size: 15px;
-    padding:3%;
+    font-size: 20px;
+    padding:1%;
 
 }
 
@@ -53,7 +53,8 @@ h2 {
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 400;
     font-size: 15px;
-    padding:3%;
+    padding:1%;
+    font-style: italic;
 }
 
 h3 {
