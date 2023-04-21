@@ -19,12 +19,24 @@
 
 
 #mjk {
-    padding-top: 50%;
+    padding-top: 23%;
     padding-left: 10%;
     padding-right: 10%;
 
 }
 
+.portrait {
+
+    display: block;
+    margin: 1% auto;
+    padding-left: 15%;
+}
+
+.resize {
+    width: 400px;
+    height: auto;
+    align-content: center;
+}
 
 .text-container {
     /* display: flex;
@@ -44,7 +56,7 @@ h1 {
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 700;
     font-size: 20px;
-    padding:1%;
+    padding:0%;
 
 }
 
@@ -53,14 +65,18 @@ h2 {
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 400;
     font-size: 15px;
-    padding:1%;
+    padding-bottom:3%;
     font-style: italic;
 }
 
 h3 {
-    text-align: justify;
+    text-align: left;
     font-family: 'Spline Sans Mono', monospace;
     font-weight: 300;
     font-size: 14px;
     padding:3%;
+}
+
+#bold {
+    text-emphasis-style: bold;
 }
