@@ -87,6 +87,17 @@ h3 {
     padding:3%;
 }
 
+p {
+    text-align: left;
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    /* padding:3px; */
+}
+
 #bold {
     text-emphasis-style: bold;
 }
