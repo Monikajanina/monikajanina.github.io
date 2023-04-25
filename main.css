@@ -111,22 +111,25 @@
     } */
 
 
+    .content {
+        padding-bottom: 200%;
+        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+        grid-template-areas:
+        ".a."
+        ".b."
+        ".c."
+        ".d."
+        ".e."
+        ".f."
+        ".g."
+        ".h."
+        ".i."
+        ;
+    }
 
 
-.image-gallery {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
-    grid-template-rows: auto;
-    grid-gap: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    grid-template-areas:
-    ". a b c ."
-    ". d e f ."
-    ". g h i ."
-    ;
-}
+
+
 
 .box-styling {
     height: 350px;
@@ -221,7 +224,7 @@ footer {
 }
 
 /* MEDIA QUERY FOR MOBILE - nooooooot working :') */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     a {
         /* color:rgb(244, 7, 7); */
         text-decoration: none;
@@ -230,13 +233,13 @@ footer {
         position: fixed;
         top:0px;
         right:0px;
-        width:205px;
-        padding: 5%;
+        width:330px;
+        padding: 2%;
     }
     .square-icon {
         top:0px;
         left:0px;
-        width:190px; 
+        width:300px; 
         stroke: 10px;
     }
     .hero-container { 
@@ -261,7 +264,7 @@ footer {
             text-transform: uppercase;
             font-family: 'Spline Sans Mono', monospace;
             font-weight: 700;
-            font-size: 15px;
+            font-size: 25px;
             padding:3%;
             list-style: none
             }
@@ -285,20 +288,51 @@ footer {
         justify-content: space-between;
         height: 200px;
         width: 710px;
+
+    }
+
+    .content {
+        /* height: 100%; */
+        display: grid;
+        grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+        grid-template-rows: auto;
+        grid-gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-template-areas:
+        ". a b c ."
+        ". d e f ."
+        ". g h i ."
+        ;
+    }
+    footer {
+        font-family: 'Spline Sans Mono', monospace;
+                    font-weight: 700;
+                    font-size: 7px;
+        width:20%;
+        margin: 15 auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "a b c";
+        align-items: center;
+        text-align: center;
+        grid-gap: 30px;
+        margin-left: 38px;
+        padding: 10px;
+    }
+    #email {
+        grid-area: c;
+        width:20%;
+        bottom: 0;
+        right: 0;
+        stroke-width: 5px; 
+    }
+    
+    #instagram {
+        grid-area: c;
+        transform-origin: bottom right;
+        width: 50%;
     }
 }
-   .image-gallery {
-       padding-bottom: 200%;
-       grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
-       grid-template-areas:
-       ".a."
-       ".b."
-       ".c."
-       ".d."
-       ".e."
-       ".f."
-       ".g."
-       ".h."
-       ".i."
-       ;
-   }
