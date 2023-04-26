@@ -14,7 +14,22 @@
     cursor: url('assets/NL-CC-closed.svg'), auto;
     }
 
-
+    .image-gallery {
+        padding-bottom: 200%;
+        grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+        grid-template-areas:
+        ".a."
+        ".b."
+        ".c."
+        ".d."
+        ".e."
+        ".f."
+        ".g."
+        ".h."
+        ".i."
+        ;
+     }
+     
 a {
     color:black;
     text-decoration: none;
@@ -31,6 +46,7 @@ a {
         z-index: +10;
 
     }
+
     #star {
         fill:beige;
         stroke-width: 2px;
@@ -84,20 +100,7 @@ a {
     }
 
 
-.image-gallery {
-height: 100%;
-display: grid;
-grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
-grid-template-rows: auto;
-grid-gap: 50%;
-padding-top: 50px;
-padding-bottom: 50px;
-grid-template-areas:
-". a b c ."
-". d e f ."
-". g h i ."
-;
-}
+
 
 .box-styling {
 height: 350px;
@@ -161,7 +164,7 @@ padding-right: .5ch;
 }
 
 /* MEDIA QUERY FOR MOBILE - nooooooot working :') */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 a {
     color:rgb(244, 7, 7);
     text-decoration: none;
@@ -170,9 +173,24 @@ a {
     position: fixed;
     top:0px;
     right:0px;
-    width:205px;
-    padding: 5%;
+    width:330px;
+    padding: 2%;
 }
+
+.image-gallery {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-areas:
+    ". a b c ."
+    ". d e f ."
+    ". g h i ."
+    ;
+    }
 
 .hero-container { 
     display: grid; 
@@ -191,19 +209,5 @@ a {
     height: 200px;
     width: 710px;
 }
-}
-.image-gallery {
-   padding-bottom: 200%;
-   grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
-   grid-template-areas:
-   ".a."
-   ".b."
-   ".c."
-   ".d."
-   ".e."
-   ".f."
-   ".g."
-   ".h."
-   ".i."
-   ;
+
 }

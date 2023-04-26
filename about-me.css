@@ -136,3 +136,129 @@ footer {
 span {
     font-weight: bold;
 }
+
+@media only screen and (min-width: 1200px) {
+    #star {
+        position: fixed;
+        margin-left: 300;
+        /* transform-origin: right top;          not workinnnnnng */
+        /* justify-content: right;     not workinnnggg  */
+        /* padding: 1%; */
+        height: 200px;
+        margin-top: -4%;
+        margin-left: 90%;
+        /* transform:scale(.1);  not working     */
+        width: 90px;
+        z-index: +10;
+        stroke: black;
+        stroke-width: 2px;
+        fill:black;
+    
+    }
+    
+    
+    #mjk {
+        display: flex;
+        padding-top: 10%;
+        padding-left: 30%; 
+        width: 40%;
+        /* justify-content: center;
+        align-self: center;
+        border: 2px solid; */
+    }
+    
+    .portrait {
+
+        display: block;
+        margin: 1% auto;
+        /* padding-left: 80%; */
+        justify-content: center;
+        /* border: 2px solid; */
+    }
+    .text-container .portrait img {
+        margin: 1% auto;
+    }
+    
+    .resize {
+        width:40%;
+        /* height: auto;
+        margin: 0 auto; */
+        align-content: right;
+    }
+    
+    
+    h1 {
+        text-align: center;
+        font-family: 'Spline Sans Mono', monospace;
+        font-weight: 700;
+        font-size: 20px;
+        padding:0%;
+    
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Spline Sans Mono', monospace;
+        font-weight: 400;
+        font-size: 15px;
+        padding-bottom:3%;
+        font-style: italic;
+    }
+    
+    h3 {
+        text-align: left;
+        font-family: 'Spline Sans Mono', monospace;
+        font-weight: 300;
+        font-size: 14px;
+        padding:3%;
+    }
+    
+    p {
+        text-align: left;
+        font-family: 'Spline Sans Mono', monospace;
+        font-weight: 300;
+        font-size: 14px;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+        /* padding:3px; */
+    }
+    
+    #bold {
+        text-emphasis-style: bold;
+    }
+    
+    footer {
+        font-family: 'Spline Sans Mono', monospace;
+                    font-weight: 700;
+                    font-size: 7px;
+        width:20%;
+        margin: 15 auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "a b c";
+        align-items: center;
+        text-align: center;
+        grid-gap: 30px;
+        margin-left: 38px;
+        padding: 10px;
+    }
+    #email {
+        grid-area: c;
+        width:20%;
+        bottom: 0;
+        right: 0;
+        stroke-width: 5px; 
+    }
+    
+    #instagram {
+        grid-area: c;
+        transform-origin: bottom right;
+        width: 50%;
+    }
+    span {
+        font-weight: bold;
+    } 
+}
