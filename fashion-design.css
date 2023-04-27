@@ -14,7 +14,7 @@
     cursor: url('assets/NL-CC-closed.svg'), auto;
     }
 
-    .image-gallery {
+    .content-fashion {
         padding-bottom: 200%;
         grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
         grid-template-areas:
@@ -184,12 +184,12 @@ a {
     padding: 1%;
 }
 
-.image-gallery {
+.content-fashion {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
     grid-template-rows: auto;
-    grid-gap: 50%;
+    grid-gap: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     grid-template-areas:
@@ -198,7 +198,15 @@ a {
     ". g h i ."
     ;
     }
-
+    .box-styling {
+        height: 350px;
+        width: 350px;
+        display: block;
+        margin: 2% auto;
+        row-gap: 8%;
+        background-color: rgb(110, 110, 110);
+        /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+        }
 .hero-container { 
     display: grid; 
     grid-template-columns: repeat(6, 1fr); 
