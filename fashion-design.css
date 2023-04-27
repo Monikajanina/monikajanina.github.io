@@ -80,12 +80,7 @@ a {
         
     /* svg styling */
 
-    #monika-logo {
-        fill:#040404;
-        /* opacity: 30%; */
-        padding:20%;
-        padding-bottom: 0%;
-    }
+ 
     .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
     .st1{fill:none;stroke:#000000;stroke-width:1.1113;stroke-miterlimit:10;}
     .st0{fill:none;stroke:#000000;stroke-width:1.1988;stroke-miterlimit:10;}
@@ -138,6 +133,7 @@ grid-area: a;
 
 .box2 {
 grid-area: b;
+padding-bottom:80%;
 }
 
 .box3 {
