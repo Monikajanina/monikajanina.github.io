@@ -51,7 +51,7 @@ margin:auto;
     width:70%;
 }
 
-.text-container {
+/* .text-container { */
     /* display: flex;
     grid-template-areas: "title";
     position: center;
@@ -62,7 +62,7 @@ margin:auto;
     font-weight: 400;
     padding: 20%; */
 
-}
+/* } */
 
 h1 {
     text-align: center;

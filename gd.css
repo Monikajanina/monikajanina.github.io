@@ -14,7 +14,7 @@
     cursor: url('assets/NL-CC-closed.svg'), auto;
     }
 
-    .image-gallery {
+    .content {
         padding-bottom: 200%;
         grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
         grid-template-areas:
@@ -182,19 +182,18 @@
         height: 200px;
         width: 710px;
     }
-    .image-gallery {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
-    grid-template-rows: auto;
-    grid-gap: 50%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    grid-template-areas:
-    ". a b c ."
-    ". d e f ."
-    ". g h i ."
-    ". j k ."
-    ;
-}
+    .content {
+        display: grid;
+        grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
+        grid-template-rows: auto;
+        grid-gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        grid-template-areas:
+        ". a b c ."
+        ". d e f ."
+        ". g h i ."
+        ". j k l."
+        ;
+    }
 }
