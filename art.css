@@ -183,6 +183,7 @@ grid-template-areas:
 #star {
     position: fixed;
     transform-origin: top left;
+    margin-top: -2px;
     /* top:0px;
     right:0px; */
     width:130px;
