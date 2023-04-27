@@ -20,13 +20,16 @@
         }
 /* all for mobile styling */
         .star-icon{
-            position: fixed;
-            top:0px;
-            right:0px;
-            transform:scale(.4);
-            transform-origin: top right;
+            width: 90px;
+            margin-left: 300px;
+            /* height: 200px; */
+             position: fixed;
+            /* top:0px;
+            right:0px; */
+            /* transform:scale(.4); */
+            /* transform-origin: top right; */
             /* padding: 8%; */
-            z-index: +10;
+            z-index: +10; */
 
         }
         .square-icon {

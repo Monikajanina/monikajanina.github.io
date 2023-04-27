@@ -2,12 +2,12 @@
 
 #star {
     position: fixed;
-    margin-left: 300;
+    margin-left: 300px;
     /* transform-origin: right top;          not workinnnnnng */
     /* justify-content: right;     not workinnnggg  */
     padding: 1%;
     height: 200px;
-    margin-top: -8%;
+    margin-top: -10%;
     /* transform:scale(.1);  not working     */
     width: 90px;
     z-index: +10;
@@ -184,6 +184,7 @@ span {
         /* height: auto;
         margin: 0 auto; */
         align-content: right;
+
     }
     
     

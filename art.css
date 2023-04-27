@@ -37,7 +37,7 @@ a {
    ;
 }
 /* all for mobile styling */
-    .star-icon{
+    /* .star-icon{
         position: fixed;
         top:0px;
         right:0px;
@@ -45,13 +45,24 @@ a {
         transform-origin: top right;
         padding: 8%;
         z-index: +10;
-    }
+    } */
     
     #star {
             stroke:beige;
             fill: none;
             stroke-width: 1px;
-    }
+                position: fixed;
+                top: 0px;
+                right: 0px;
+                /* margin-left: 300; */
+                padding: 1%;
+                height: 200;
+                margin-top: 2%;
+                /* transform:scale(.9);    */
+                width: 90px;
+                z-index: +10;
+            }
+    
     .hero-container { 
         display: grid; 
         grid-template-columns: repeat(6, 1fr); 
@@ -169,12 +180,20 @@ grid-template-areas:
 ;
 }
 
-.star-icon{
+#star {
     position: fixed;
+    transform-origin: top left;
+    /* top:0px;
+    right:0px; */
+    width:130px;
+    /* padding: 0; */
+    /* padding-top: -8%; */
+    /* position: fixed;
     top:0px;
-    right:0px;
-    width:330px;
-    padding: 2%;
+    right:0px; */
+    /* width:390px; */
+    /* height: 150px; */
+    /* padding-top: -80%; */
 }
 
 .hero-container { 
