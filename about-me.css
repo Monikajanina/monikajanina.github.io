@@ -140,18 +140,21 @@ span {
 @media only screen and (min-width: 1200px) {
     #star {
         position: fixed;
-        margin-left: 300;
+        top:0px;
+        right:0px;
+        /* margin-left: 300; */
+
         /* transform-origin: right top;          not workinnnnnng */
         /* justify-content: right;     not workinnnggg  */
         /* padding: 1%; */
-        height: 200px;
-        margin-top: -4%;
-        margin-left: 90%;
+        /* height: 200px; */
+        margin-top: -29px;
+        margin-right: 2px;
+        /* margin-left: 90%; */
         /* transform:scale(.1);  not working     */
-        width: 90px;
+        width: 130px;
         z-index: +10;
         stroke: black;
-        stroke-width: 2px;
         fill:black;
     
     }

@@ -37,15 +37,17 @@
         text-decoration: none;
         }
 /* all for mobile styling */
-        .star-icon{
-            position: fixed;
-            top:0px;
-            right:0px;
-            transform:scale(.4);
-            transform-origin: top right;
-            padding: 8%;
-            z-index: +10;
-        }
+      .star-icon {
+    position: fixed;
+    margin-left: 300px;
+    /* padding: 1%; */
+    /* margin-top: -10%; */
+    width: 90px;
+    z-index: +10;
+    stroke: black;
+    fill: none;
+
+}
     
         .hero-container { 
             display: grid; 
@@ -151,14 +153,16 @@
         color:rgb(244, 7, 7);
         text-decoration: none;
         }
-    .star-icon{
-        fill:none;
-        stroke: black;
+
+    #star {
         position: fixed;
-        top:0px;
-        right:0px;
-        width:205px;
-        padding: 5%;
+        top: 0;
+        right: 0;
+        width:130px;
+        padding: 1%;
+        /* padding: 15px; */
+        /* margin-top: 15px; */
+        
     }
     .hero-container { 
         display: grid; 
