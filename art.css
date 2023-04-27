@@ -21,7 +21,7 @@ a {
     text-decoration: none;
     }
 
-    .image-gallery {
+    .content {
    padding-bottom: 200%;
    grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
    grid-template-areas:
@@ -165,12 +165,12 @@ padding-right: .5ch;
 a {
     text-decoration: none;
     }
-.image-gallery {
+.content {
 height: 100%;
 display: grid;
 grid-template-columns: 1fr minmax(350px, 1fr)  minmax(350px, 1fr) minmax(350px, 1fr) 1fr;
 grid-template-rows: auto;
-grid-gap: 50%;
+grid-gap: 50px;
 padding-top: 50px;
 padding-bottom: 50px;
 grid-template-areas:
