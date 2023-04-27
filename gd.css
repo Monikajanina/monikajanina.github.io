@@ -1,5 +1,6 @@
 .background-gd {
-    background-image: url(assets/background-gdesign.jpg);
+    /* background-image: url(assets/background-gdesign.jpg); */
+    background-color: rgb(213, 213, 198);
     height: 5000px;
     background-repeat: no-repeat;
     height: 100%;
