@@ -1,2 +1,22 @@
-# Portfolio-Monika
- 
+# Portfolio Documentation, Monika Janina Kristjánsdóttir
+This is my very first website that I created with HTML and CSS coding. I changed my self identity branding slightly from my business card repository. Initially, I was going to use that as my landing page but I was eager to do something new. I created a new logo for my name where I did a whole lot of repeated compositions of fonts to match the ones who felt as a set together. 
+
+I edited a new video of a waterfall that I took, in slow motion and photoshopped it with a tint of color. I ran into some challenges with it not loading properly or being displaced on the website. I had to reduce the size of the file, turning it from a video to a gif. My very first idea that I had in mind was to add a fun element to the video. The idea was once you are scrolling up on the page the video in the background would reverse. I haven’t found out how to do that yet I will find a solution to. I think it's a unique and personal detail that no other website has. I want it to stand out and feel different from standard websites.
+The icons on my page are geometric to break the organic elements that I have so much of, I thought the solution had a nice balance between both. I’m really happy how the styling came along, I feel like I put a lot of time on it and I hope it shows the efforts.
+
+I had early issues with my landing page through coding because my layout was quite different from regular websites, therefore I had to do my coding from scratch. It was also difficult because I was using a video as a background, it made weird glitches, and didn't fill the desktop page or cut off somewhere I didn’t want it to be. I got the landing page to look perfect on a desktop top until I started messing around with the mobile grid. 
+
+I focused on the mobile grid since I was showcasing my website in a light + fashion show, where people would scan the code and give me critiques through a survey I made. Another reason why mobile grid was a priority is that 80% of the time people browse websites through their phone.
+
+I ran into some problems with my responsive grid and especially the icons, where each and every icon on every page needed some love on its own with different code snippets. It was challenging to get them all to match size and placement on every page. And then doing it for the responsive desktop grid later. It was time consuming but worth it towards the end. 
+
+One of my classmates mentioned that my “About Me” site was too hidden, which was a fair critique, so one of my questions on the survey was about if the viewer could find it. I took a risk to not name the menu/navigation instead I made them as icons. Luckily and surprisingly everyone who took the survey with 12 participants found the “about me” page easy to find. Someone even said that it’s very self explanatory which was a relief for me. I didn’t like the aesthetic of having a nav bar that says “home-work-about.” 
+
+My feedback overall was really good. I had one person who browsed the website with a desktop view and by that time I had not been paying a lot of attention to the desktop grid. However, that person had good critique but said a home button would be nice to have. It was supposed to be there but apparently it got messy when I was focusing on the mobile grid. 
+
+I have some interaction going on with the hover effects on my image gallery that blurs the image and zoom in at the same time. I think it’s a fun element to add and it feels professional.
+
+I am very happy at where I’m at now but I wouldn’t consider the page as being done. I know that I will spend much more time on it. Especially adding the subpages. I need to go back to my projects and write about them. I’m hoping to finish at least like my top 6-10 projects’ subpages during the summer.  
+
+I think coding was difficult but I feel good now like I’m having a hang of it. I would definitely say that the css grid was hard until I understood it completely. I felt like a lot of coding is like 80% debugging at least for this project’s experience. No matter how much time I spent on the machine and nothing was working, I was patient. It was so satisfying when something worked, even the tiniest thing. It was weird because it could get very frustrating but at the same time I really enjoyed it… and I think it’s my newest obsession?.... :-) hehe
+                                                                                                                 
