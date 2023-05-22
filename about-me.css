@@ -222,9 +222,12 @@ span {
     
     p {
         text-align: left;
+        margin-left: 250px;
+        margin-right: 250px;
+
         font-family: 'Spline Sans Mono', monospace;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 17px;
         padding-left: 2%;
         padding-right: 2%;
     
