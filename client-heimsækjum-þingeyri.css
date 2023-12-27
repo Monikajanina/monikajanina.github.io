@@ -24,15 +24,22 @@
     .photo-three { grid-area: photo-three; } 
     .text { grid-area: text-one; } 
 
-    img {
+   /* img {
         display: block;
-        margin-left: 10%;
+        margin-left: 50%;
         margin-right: auto;
         /* margin: 0 auto; important:  !important; */
         width: 70vw;
         /* text-align: center; */
         align-items: center;
 
-
-    
-    } 
+        img {
+            margin: 10%;
+        } 
+        .heim-header {
+            margin: 10%;
+            font-family: 'Spline Sans Mono', monospace;
+            font-weight: 700;
+            font-size: 15px;
+          
+        } 

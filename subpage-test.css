@@ -1,0 +1,53 @@
+
+
+
+    
+    :host(:not(img)) div#image-overlay:-webkit-full-screen-document { 
+        display: none; } 
+        
+        div.image-overlay-line { 
+            white-space: nowrap; 
+            line-height: 100%; 
+            font-size: 1024px; } 
+            
+   
+            
+        div.image-overlay-block { 
+            background-color: rgba(255, 255, 255, 0.75); 
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1); 
+            color: rgb(90, 90, 90); 
+            font-weight: 400; display: flex; 
+            justify-content: center; 
+            align-content: center; } 
+         
+            
+            div.image-overlay-line, .image-overlay-text, div.image-overlay-block { 
+                position: absolute; } 
+                
+            div.image-overlay-line, .image-overlay-text { 
+                overflow: hidden; } 
+                
+            .image-overlay-block { 
+                overflow-x: hidden; } 
+                
+            .image-overlay-text::selection { 
+                color: transparent; 
+                background-color: highligh; } 
+                
+            div.image-overlay-data-detector-result { 
+                position: absolute; 
+                -webkit-user-select: none; }
+                
+
+#image-overlay { display: inline-block; 
+    pointer-events: none; 
+    position: relative; 
+    overflow: hidden; 
+    color: transparent; 
+    -webkit-text-stroke-color: currentcolor; 
+    -webkit-text-fill-color: currentcolor; 
+    text-shadow: none; 
+    text-indent: 0; 
+    text-align: center; 
+    font-family: system-ui; } 
+    
